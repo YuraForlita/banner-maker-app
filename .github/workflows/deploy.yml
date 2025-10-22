@@ -30,7 +30,7 @@ jobs:
           node-version: 18 # Використовуємо 18 версію Node.js
           
       - name: Install dependencies
-        run: npm install
+        run: npm ci # <--- ОСЬ ЦЯ ЗМІНА (було npm install)
         
       - name: Build
         run: npm run build
